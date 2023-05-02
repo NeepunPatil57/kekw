@@ -1,0 +1,13 @@
+Enter the terminals: a,b,c,d  
+Enter the non-terminals (First non-terminal should be starting symbol): S,A,B    
+Enter no of productions: 5    
+Enter the productions:
+S->AB    
+S->ABd   
+A->aAb   
+A->b    
+B->c    
+Non Terminals               First                     Follow       
+       S        ['a', 'b']                     ['$']
+       A        ['a', 'b']                     ['b', 'c']
+       B        ['c']                          ['$', 'd']
