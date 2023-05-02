@@ -1,6 +1,0 @@
-Enter No of Production: 4
-Enter the productions:
-S -> Aa | b
-A -> Ac | Sd
-C -> bC | e
-D -> Dd | f
